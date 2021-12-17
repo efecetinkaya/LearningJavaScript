@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Efe Galeri</title>
+    <link rel="stylesheet" href="efe.css">
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(223, 226, 29);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #30023b;
+}
+</style>
+</head>
+<body>
+
+<ul> 
+  <li><a class="active" >Efe Galeri</a></li>
+  <li><a class="navbar" href="#anasayfa">Anasayfa</a></li>
+  <li><a class="navbar" href="#iletişim">İletişim</a></li>
+  <li><a class="navbar" href="#arabalarımız">Arabalarımız</a></li>
+</ul>
+<h2 style="padding-left:50px;" id="girish3">Efe Galeri, Yalnızca En Özel Müşterilere En Özel Arabaları Sunar</h2>
+<h4 style="padding-left:50px;">50 yılı aşkın deneyimimizle Türkiye'nin önde gelenlerine hizmet ediyoruz. </h4>
+<img style="height:230px" src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i_Mj8oTh0Erk/v0/-1x-1.jpg" alt="fotoğraf1">
+<img style="height:230px" src="https://my.matterport.com/api/v2/player/models/gT38hbJHe7M/thumb/" alt="fotoğraf2">
+<img style="height:230px" src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/2-tom-hartley-showroom_0.jpg?itok=MY1RdSu3" alt="fotoğraf3">
+<br>  
+<h5 id="h5vol1">Neden Efe Galeri'yi Tercih Etmeliyim?</h5>
+<p id="tick">&#10004; <span  onmouseover="göster()" onmouseleave="sakla()">  Üst Düzey Hizmet</span> <span style="visibility: hidden;" id="üdhText">Efe Galeri, Ortadoğu ve Balkanlar başta olmak üzere 13 ülkeye verdiği hizmet ile dünya çapında bir üne sahiptir.</span><br><br>&#10004; <span  onmouseover="göster2()" onmouseleave="sakla2()"> Ayağınıza Kadar Teslim</span><span style="visibility: hidden;" id="aksText">Dünyanın dört bir yanından seçtiğiniz araçları kapınızın önüne kadar getirir.</span><br><br>&#10004;<span onmouseover="göster3()" onmouseleave="sakla3()">  %100 Müşteri Memnuniyeti</span><span style="visibility: hidden;" id="mmText">Ürünlerimizde ilk 6 ay içinde koşulsuz iade imkanı sunuyoruz.</span><p></p>
+
+<h3>Size Ulaşalım</h3>
+<form  action="">
+<span>Ad-Soyad </span> <input  type="text" name="" id=""> <br> <br>
+<span id="iletişim">Email </span> <input type="email" name="" id=""> <br><br>
+<span>Telefon</span> <input type="tel" name="" id=""><br><br>
+<button type="submit">Gönder</button>
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+<script src="efe.js"></script>
+</body>
+</html>
